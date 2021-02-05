@@ -1,4 +1,4 @@
-Device configuration for Redmi K30 Ultra (begonia)
+Device configuration for Redmi K30 Ultra (cezanne)
 ===================================================
 
 
@@ -7,8 +7,8 @@ The Redmi K30 Ultra (codenamed _"cezanne"_) is a high-end, mid-range smartphone 
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
 | CPU                     | Octa-core                                                                                                                      |
-| Chipset                 | Mediatek Dimensity 1000C                                                                                                            |
-| GPU                     | Mali-G57 MC4                                                                                                                   |
+| Chipset                 | Mediatek Dimensity 1000+                                                                                                            |
+| GPU                     | Mali-G77 MC9                                                                                                                   |
 | Memory                  | 6/8 GB RAM                                                                                                                     |
 | Shipped Android Version | 10.0                                                                                                                            |
 | Storage                 | 128/256 GB                                                                                                                  |
@@ -18,3 +18,4 @@ The Redmi K30 Ultra (codenamed _"cezanne"_) is a high-end, mid-range smartphone 
 
 
 **Copyright (C) 2020 The Potato Open Source Project**
+**Copyright (C) 2020 Magicial-Studio**
