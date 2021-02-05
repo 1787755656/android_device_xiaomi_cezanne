@@ -1,5 +1,5 @@
 #
-# from device/xiaomi/begonia/special_ro.prop
+# from device/xiaomi/cezanne/special_ro.prop
 #
 # For special ro override property
 # White Point Calibration
@@ -107,11 +107,11 @@ ro.vendor.audio.sos=true
 vendor.audio.spkcal.copy.inhal=true
 # end of device/mediatek/system/common/system.prop
 #
-# from device/mediatek/mt6785/common_rw.prop
+# from device/mediatek/mt6885/common_rw.prop
 #
 # For common rw override property
 #
-# from device/xiaomi/begonia/special_rw.prop
+# from device/xiaomi/cezanne/special_rw.prop
 #
 # For special rw override property
 persist.sys.mdlog_dumpback=2

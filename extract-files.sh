@@ -7,10 +7,10 @@
 
 set -e
 
-DEVICE=begonia
+DEVICE=cezanne
 VENDOR=redmi
 
-INITIAL_COPYRIGHT_YEAR=2019
+INITIAL_COPYRIGHT_YEAR=2021
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -70,9 +70,9 @@ function blob_fixup() {
         patchelf --replace-needed libsoftkeymasterdevice.so libsoftkeymasterdevice-v29.so ${2}
         patchelf --replace-needed libpuresoftkeymasterdevice.so libpuresoftkeymasterdevice-v29.so ${2}
         ;;
-    vendor/lib64/hw/audio.primary.mt6785.so)
+    vendor/lib64/hw/audio.primary.mt6885.so)
         ;&
-    vendor/lib/hw/audio.primary.mt6785.so)
+    vendor/lib/hw/audio.primary.mt6885.so)
         patchelf --replace-needed libmedia_helper.so libmedia_helper-v29.so ${2}
         ;;
     vendor/lib64/libmtkcam_prerelease.so)

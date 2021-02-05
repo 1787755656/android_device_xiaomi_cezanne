@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := begonia
+PRODUCT_RELEASE_NAME := cezanne
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -24,23 +24,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit from begonia device
-$(call inherit-product, device/redmi/begonia/device.mk)
+$(call inherit-product, device/redmi/cezanne/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := begonia
-PRODUCT_NAME := potato_begonia
+PRODUCT_DEVICE := cezanne
+PRODUCT_NAME := aosp_cezanne
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 8 Pro
+PRODUCT_MODEL := Redmi K30 Ultra
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="begonia-user 10 QP1A.190711.020 V11.0.2.0.QGGEUXM release-keys" \
-    PRODUCT_NAME="begonia" \
-    TARGET_DEVICE="begonia"
+    PRIVATE_BUILD_DESC="-userdebug 10 QQ1A.190711.020 V12.0.11.0.QJNCNXM release-keys" \
+    PRODUCT_NAME="cezanne" \
+    TARGET_DEVICE="cezanne"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

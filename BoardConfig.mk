@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/redmi/begonia
+DEVICE_PATH := device/redmi/cezanne
 
 # Architecture
 TARGET_ARCH := arm64
@@ -45,7 +45,7 @@ USE_CUSTOM_AUDIO_POLICY := 0
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := begonia
+TARGET_BOOTLOADER_BOARD_NAME := cezanne
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -53,8 +53,8 @@ TARGET_USES_UEFI := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6785
-TARGET_BOARD_PLATFORM_GPU := mali-g76mc4
+TARGET_BOARD_PLATFORM := mt6885
+TARGET_BOARD_PLATFORM_GPU := mali-g77mc9
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
@@ -67,8 +67,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_BOOTIMG_HEADER_VERSION := 1
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6785
-TARGET_KERNEL_CONFIG := begonia_user_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6885
+TARGET_KERNEL_CONFIG := cezanne_user_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r353983c
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
@@ -78,7 +78,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/dtbo.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := begonia
+TARGET_OTA_ASSERT_DEVICE := cezanne
 
 # Avb
 BOARD_AVB_ENABLE := true
@@ -127,7 +127,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system/system_ext
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6785
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6885
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-12-01
@@ -138,9 +138,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 ODM_MANIFEST_SKUS += \
-    begonia
+    cezanne
 
-ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_begonia.xml
+ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_cezanne.xml
 
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor

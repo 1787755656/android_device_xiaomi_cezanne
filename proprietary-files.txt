@@ -136,18 +136,18 @@ vendor/lib64/soundfx/libaudiopreprocessing.so
 
 # Audio-Hardware
 vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.mt6785.so
+vendor/lib/hw/audio.primary.mt6885.so
 vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.r_submix.mt6785.so
+vendor/lib/hw/audio.r_submix.mt6885.so
 vendor/lib/hw/audio.usb.default.so
-vendor/lib/hw/audio.usb.mt6785.so
+vendor/lib/hw/audio.usb.mt6885.so
 vendor/lib/hw/audio_policy.stub.so
 vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.primary.mt6785.so
+vendor/lib64/hw/audio.primary.mt6885.so
 vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.r_submix.mt6785.so
+vendor/lib64/hw/audio.r_submix.mt6885.so
 vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/hw/audio.usb.mt6785.so
+vendor/lib64/hw/audio.usb.mt6885.so
 vendor/lib64/hw/audio_policy.stub.so
 
 # Bluetooth
@@ -644,7 +644,7 @@ vendor/lib64/libCamera_s5kgw1sunnymipiraw_Video_Zoom2.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmialgo_sd.so
-vendor/lib64/libmibokeh_mt6785.so
+vendor/lib64/libmibokeh_mt6885.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libSonyIMX230PdafLibrary.so
 vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
@@ -680,8 +680,8 @@ vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/visidon_clearshot_params_algoup.xml
 
 # Consumerir
-vendor/lib/hw/consumerir.mt6785.so
-vendor/lib64/hw/consumerir.mt6785.so
+vendor/lib/hw/consumerir.mt6885.so
+vendor/lib64/hw/consumerir.mt6885.so
 
 # DRM
 vendor/lib/liboemcrypto.so
@@ -698,12 +698,12 @@ vendor/lib64/mediadrm/libwvdrmengine.so|57c12b5dcfa7098718e3a7b39b2f6eae33b68dcd
 
 # Display-Hardware
 vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.mt6785.so
-vendor/lib/hw/memtrack.mt6785.so
+vendor/lib/hw/gralloc.mt6885.so
+vendor/lib/hw/memtrack.mt6885.so
 vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.mt6785.so
-vendor/lib64/hw/hwcomposer.mt6785.so
-vendor/lib64/hw/memtrack.mt6785.so
+vendor/lib64/hw/gralloc.mt6885.so
+vendor/lib64/hw/hwcomposer.mt6885.so
+vendor/lib64/hw/memtrack.mt6885.so
 
 # DP Framework | Compiled against begonia-q-oss kernel 
 vendor/lib/libdpframework.so|dae0139d552862938dd0ac476941b361104d8992
@@ -778,10 +778,10 @@ vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib/hw/gatekeeper.mt6785.so
+vendor/lib/hw/gatekeeper.mt6885.so
 vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib64/hw/gatekeeper.mt6785.so
+vendor/lib64/hw/gatekeeper.mt6885.so
 vendor/lib64/hw/libSoftGatekeeper.so
 
 # Graphics
@@ -827,15 +827,15 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Keystore
-vendor/lib/hw/keystore.mt6785.so
+vendor/lib/hw/keystore.mt6885.so
 vendor/lib/libkeystore-wifi-hidl.so
-vendor/lib64/hw/keystore.mt6785.so
+vendor/lib64/hw/keystore.mt6885.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.mt6785.so
-vendor/lib64/hw/sound_trigger.primary.mt6785.so
+vendor/lib/hw/sound_trigger.primary.mt6885.so
+vendor/lib64/hw/sound_trigger.primary.mt6885.so
 
 # MTK-IMS
 -framework/mediatek-common.jar
@@ -1172,9 +1172,9 @@ vendor/etc/powercontable.xml
 vendor/etc/powerscntbl.xml
 vendor/etc/power_whitelist_cfg.xml
 vendor/lib/hw/power.default.so
-vendor/lib/hw/power.mt6785.so
+vendor/lib/hw/power.mt6885.so
 vendor/lib64/hw/power.default.so
-vendor/lib64/hw/power.mt6785.so
+vendor/lib64/hw/power.mt6885.so
 
 # Radio
 vendor/lib/libvsim.so
@@ -1182,7 +1182,7 @@ vendor/lib/libvsim.so
 # Sensors
 vendor/lib/hw/sensors.touch.so
 vendor/lib/libssccalapi.so
-vendor/lib64/hw/sensors.mt6785.so
+vendor/lib64/hw/sensors.mt6885.so
 vendor/lib64/hw/sensors.touch.so
 vendor/lib64/libsensor_custom.so
 vendor/lib64/libssccalapi.so
@@ -1218,8 +1218,8 @@ vendor/etc/thermald-devices.conf
 vendor/lib/libthermalalgo.so
 
 # Thermal-Hardware
-vendor/lib/hw/thermal.mt6785.so
-vendor/lib64/hw/thermal.mt6785.so
+vendor/lib/hw/thermal.mt6885.so
+vendor/lib64/hw/thermal.mt6885.so
 
 # Vibrator
 vendor/lib/hw/vibrator.default.so
@@ -1396,8 +1396,8 @@ vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
-vendor/etc/apdb/APDB_MT6785_S01__W1943
-vendor/etc/apdb/APDB_MT6785_S01__W1943_ENUM
+vendor/etc/apdb/APDB_mt6885_S01__W1943
+vendor/etc/apdb/APDB_mt6885_S01__W1943_ENUM
 vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
@@ -1863,12 +1863,12 @@ vendor/lib/gc2375beta_mipi_raw_IdxMgr.so
 vendor/lib/gc2375beta_mipi_raw_tuning.so
 vendor/lib/gc5035_mipi_raw_IdxMgr.so
 vendor/lib/gc5035_mipi_raw_tuning.so
-vendor/lib/hw/dfps.mt6785.so
+vendor/lib/hw/dfps.mt6885.so
 vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/flp.default.so
 vendor/lib/hw/gps.default.so
 vendor/lib/hw/kmsetkey.default.so
-vendor/lib/hw/kmsetkey.mt6785.so
+vendor/lib/hw/kmsetkey.mt6885.so
 vendor/lib/lib3a.ae.core.so
 vendor/lib/lib3a.ae.so
 vendor/lib/lib3a.af.core.so
@@ -2040,12 +2040,12 @@ vendor/lib64/gc2375beta_mipi_raw_IdxMgr.so
 vendor/lib64/gc2375beta_mipi_raw_tuning.so
 vendor/lib64/gc5035_mipi_raw_IdxMgr.so
 vendor/lib64/gc5035_mipi_raw_tuning.so
-vendor/lib64/hw/dfps.mt6785.so
+vendor/lib64/hw/dfps.mt6885.so
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/flp.default.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/kmsetkey.default.so
-vendor/lib64/hw/kmsetkey.mt6785.so
+vendor/lib64/hw/kmsetkey.mt6885.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so

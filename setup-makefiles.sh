@@ -7,10 +7,10 @@
 
 set -e
 
-DEVICE=begonia
+DEVICE=cezanne
 VENDOR=redmi
 
-INITIAL_COPYRIGHT_YEAR=2019
+INITIAL_COPYRIGHT_YEAR=2021
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
